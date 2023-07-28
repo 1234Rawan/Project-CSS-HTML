@@ -1,0 +1,208 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+.container{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+
+}
+.A,.B,.C,.D{
+    color: rgb(255, 255, 255);
+}
+.A{
+    top: -40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.B{
+    right: -1000px;
+    top: -27px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container ul li.C{
+    right: -1100px;
+    top: -47px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container ul li.D{
+    right: -1200px;
+    top: -65px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container ul li.E {
+    color: black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4px;
+    top: 3px;
+    left: 48px;
+    padding: 10px 10px;
+    margin-left:1225px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px 30px 30px 30px;
+}
+.Page2 img{
+    left: 675px;
+    top: -858px;
+    position: relative;
+}
+.Page2{
+    background-color: rgb(255, 255, 255);
+    
+    width:100%;
+     height:100%;
+}
+.Page2 h1{
+    color: rgb(29, 29, 29);
+    font-family:sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 100px 70px;
+    margin-left:95px 95px;
+    text-align: center;
+
+}
+.Page2 p{
+    font-size: 17px;
+    
+  
+    color: rgb(139, 139, 139);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 990px;
+}
+.Page2 h3{
+    font-size: 17px;
+    color: rgb(29, 29, 29);
+    padding: 400px 90px;
+}
+.Page3 img{
+    right: 0px;
+    top: -915px;
+    position: relative;
+}
+.Page3{
+    background-color: rgb(255, 255, 255);
+    
+    width:100%;
+     height:100%;
+}
+.Page3 h1{
+    color: rgb(29, 29, 29);
+    font-family:sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   left: 690px;
+    top: 1350px;
+
+}
+.Page3 p{
+    font-size: 17px;
+    color: rgb(139, 139, 139);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 690px;
+    top: 1550px;
+}
+ h3{
+    font-size: 17px;
+    position: relative;
+    color: rgb(29, 29, 29);
+      
+}
+.Page3 .IMAGES{
+    left: 675px;
+    top: 1870px;
+    position:absolute;
+}
+.Page3 .Images{
+    top: -922px;
+}
+.content h2{
+    position: absolute;
+    left: 230px;
+top:   2100px;
+}
+.Content h2{
+    position: absolute;
+    left: 930px;
+top:   2100px;
+}
+.content p{
+    position: absolute;
+    left: 190px;
+    top:   2200px;
+}
+.Content p{
+    position: absolute;
+    left: 870px;
+top:   2200px;
+}
